@@ -8,6 +8,9 @@ Sadia is a sophisticated AI-powered Email Assistant designed to handle professio
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)<Br>
 ![License](https://img.shields.io/badge/License-MIT-green)<Br>
 <Br>
+![n8n](https://img.shields.io/badge/Automation-n8n-EA4B71?style=for-the-badge&logo=n8n)
+![Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?style=for-the-badge&logo=google)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 🌟 Key Features
 
