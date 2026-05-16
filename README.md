@@ -13,7 +13,10 @@ Sadia is a sophisticated AI-powered Email Assistant designed to handle professio
 
 ## 🏗️ Technical Architecture
 
-The workflow is built on **n8n** and consists of the following components:
+The workflow is built on **n8n** and follows a modular architecture:
+
+![Sadia AI Workflow Architecture](workflow-screenshot.png)
+
 1.  **Gmail Trigger:** Polls for new messages and triggers the workflow.
 2.  **Filter Node:** Prevents looping and handles internal email routing.
 3.  **AI Agent (Brain):** Powered by Google Gemini 1.5 Flash with custom system prompts.
