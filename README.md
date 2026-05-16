@@ -61,6 +61,7 @@ The workflow is built on **n8n** and follows a modular architecture:
 ---
 *Note: This project was built to demonstrate the power of AI Agents in automating professional workflows and scaling personal business communications.*
 <br>
+<br>
 ![n8n](https://img.shields.io/badge/Automation-n8n-red)
 ![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-blue)
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
