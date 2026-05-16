@@ -28,7 +28,7 @@ The workflow is built on **n8n** and consists of the following components:
 -   **LLM Model:** Google Gemini 1.5 Flash
 -   **Database:** Google Sheets (as a searchable knowledge base)
 -   **Email Integration:** Gmail API
--   **Programming:** JavaScript
+-   **Programming:** JavaScript 
 
 ## 📂 Project Structure
 
