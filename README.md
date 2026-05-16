@@ -1,5 +1,7 @@
 # Sadia AI: Autonomous Email Assistant for Maheer 🚀
 
+Sadia is a sophisticated AI-powered Email Assistant designed to handle professional communications on behalf of **Sheikh Mohammad Ali Maheer**. Built using **n8n**, **Google Gemini 1.5 Flash**, and **Google Sheets**, this agent acts as a first responder to business inquiries, providing accurate information about services, pricing, and portfolio.
+
 <br>
 
 ![n8n](https://img.shields.io/badge/Automation-n8n-red)
@@ -8,8 +10,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 <br>
-
-Sadia is a sophisticated AI-powered Email Assistant designed to handle professional communications on behalf of **Sheikh Mohammad Ali Maheer**. Built using **n8n**, **Google Gemini 1.5 Flash**, and **Google Sheets**, this agent acts as a first responder to business inquiries, providing accurate information about services, pricing, and portfolio.
 
 ## 🌟 Key Features
 
