@@ -50,7 +50,18 @@ The workflow is built on **n8n** and follows a modular architecture:
 **Sheikh Mohammad Ali Maheer** 
 *AI Automation Engineer & Full Stack Developer*  
 - [GitHub](https://github.com/maheerCodes)  
-- [LinkedIn](https://linkedin.com/in/sheikh-mohammad-ali-maheer)  
+- [LinkedIn](https://linkedin.com/in/sheikh-mohammad-ali-maheer)
+
+## 🚀 Quick Setup
+1. **Import Workflow:** Download the `EmailWorkflows.json` and import it into your n8n instance.
+2. **Setup Database:** Create a Google Sheet with `Topic`, `Keywords`, and `Content` columns.
+3. **Configure API:** Add your Google Gemini API key and connect your Gmail account.
+4. **Publish:** Activate the workflow and you are ready!
+
+![n8n](https://img.shields.io/badge/Automation-n8n-red)
+![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-blue)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 *Note: This project was built to demonstrate the power of AI Agents in automating professional workflows and scaling personal business communications.*
