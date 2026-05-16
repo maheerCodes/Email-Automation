@@ -7,7 +7,7 @@ Sadia is a sophisticated AI-powered Email Assistant designed to handle professio
 -   **Autonomous Decision Making:** Uses Google Gemini to understand client intent and call tools as needed.
 -   **Dynamic Database (RAG):** Fetches real-time pricing and service details from Google Sheets.
 -   **Context-Aware Conversation:** Maintains thread memory (using Thread IDs) to handle follow-up emails seamlessly.
--   **Multilingual Support:** Automatically detects the sender's language (Bangla, English, Banglish) and mirrors their tone.
+-   **Multilingual Support:** Automatically detects the sender's language (Bangla, English, Banglish) and mirrors their tone. 
 -   **Safety & Filtering:** Built-in safety logic to handle inappropriate language or off-topic queries professionally.
 -   **Structured JSON Output:** Custom JavaScript formatting to ensure email replies are sent in clean, professional HTML.
 
