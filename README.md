@@ -65,5 +65,3 @@ The workflow is built on **n8n** and follows a modular architecture:
 
 ---
 *Note: This project was built to demonstrate the power of AI Agents in automating professional workflows and scaling personal business communications.*
-
-
