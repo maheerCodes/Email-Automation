@@ -11,11 +11,11 @@
   <a href="LICENSE" style="text-decoration: none;"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
   <br>  <!--GitHubStatsBadges-->
   <a href="https://github.com/maheerCodes/Email-Automation/stargazers" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/maheerCodes/Email-Automation?style=flat-square&color=gold" alt="Stars"></a>
-  <a href="https://github.com/maheerCodes/Tic-Tac-Toe/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Tic-Tac-Toe?style=flat-square&color=blue" alt="Forks"></a>
+  <a href="https://github.com/maheerCodes/Email-Automation/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Email-Automation?style=flat-square&color=blue" alt="Forks"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;"><img src="https://img.shields.io/github/issues/maheerCodes/Email-Automation?style=flat-square&color=red" alt="Issues"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/commits/main" style="text-decoration: none;"><img src="https://img.shields.io/github/last-commit/maheerCodes/Email-Automation?style=flat-square&color=green" alt="Last Commit"></a>
   <br>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=maheerCodes.Tic-Tac-Toe" alt="Visitors">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=maheerCodes.Email-Automation" alt="Visitors">
 
   <p>Sadia is a human-like Personal Executive Assistant that automatically monitors Gmail, retrieves professional info from Google Sheets using RAG, and replies to clients in their own language.</p>
 
