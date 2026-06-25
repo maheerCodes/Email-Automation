@@ -13,15 +13,15 @@
   <img src="https://img.shields.io/badge/Gemini-1.5%20Flash-blue?style=flat-square&logo=googlegemini" alt="Gemini version">
   <img src="https://img.shields.io/badge/PRs--Welcome-brightgreen?style=flat-square" alt="PRs Welcome">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green?style=flat-square" alt="Maintained">
-  <br><!--GitHubStatsBadges-->
+<br><!--DynamicMetrics-->
+  <img src="https://img.shields.io/github/commit-activity/m/maheerCodes/Email-Automation" alt="GitHub Activity">
+  <img src="https://img.shields.io/github/repo-size/maheerCodes/Email-Automation" alt="GitHub repo size">
+  <img src="https://img.shields.io/github/followers/maheerCodes?style=social" alt="GitHub followers">
+<br><!--GitHubStatsBadges-->
   <a href="https://github.com/maheerCodes/Email-Automation/stargazers" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/maheerCodes/Email-Automation?style=flat-square&color=gold" alt="Stars"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Email-Automation?style=flat-square&color=blue" alt="Forks"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;"><img src="https://img.shields.io/github/issues/maheerCodes/Email-Automation?style=flat-square&color=red" alt="Issues"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/commits/main" style="text-decoration: none;"><img src="https://img.shields.io/github/last-commit/maheerCodes/Email-Automation?style=flat-square&color=green" alt="Last Commit"></a>
-  <br><!--DynamicMetrics-->
-<img src="https://img.shields.io/github/commit-activity/m/maheerCodes/Email-Automation" alt="GitHub Activity">
-<img src="https://img.shields.io/github/repo-size/maheerCodes/Email-Automation" alt="GitHub repo size">
-<img src="https://img.shields.io/github/followers/maheerCodes?style=social" alt="GitHub followers">
   <br><!--TotalVisitors-->
   <img src="https://visitor-badge.laobi.icu/badge?page_id=maheerCodes.Email-Automation" alt="Visitors">
 
