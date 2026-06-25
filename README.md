@@ -18,7 +18,11 @@
   <a href="https://github.com/maheerCodes/Email-Automation/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Email-Automation?style=flat-square&color=blue" alt="Forks"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;"><img src="https://img.shields.io/github/issues/maheerCodes/Email-Automation?style=flat-square&color=red" alt="Issues"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/commits/main" style="text-decoration: none;"><img src="https://img.shields.io/github/last-commit/maheerCodes/Email-Automation?style=flat-square&color=green" alt="Last Commit"></a>
-  <br>
+  <br><!--DynamicMetrics-->
+<img src="https://img.shields.io/github/commit-activity/m/maheerCodes/Email-Automation" alt="GitHub Activity">
+<img src="https://img.shields.io/github/repo-size/maheerCodes/Email-Automation" alt="GitHub repo size">
+<img src="https://img.shields.io/github/followers/maheerCodes?style=social" alt="GitHub followers">
+  <br><!--TotalVisitors-->
   <img src="https://visitor-badge.laobi.icu/badge?page_id=maheerCodes.Email-Automation" alt="Visitors">
 
   <p>Sadia is a human-like Personal Executive Assistant that automatically monitors Gmail, retrieves professional info from Google Sheets using RAG, and replies to clients in their own language.</p>
