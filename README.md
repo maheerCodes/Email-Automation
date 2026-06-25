@@ -8,7 +8,12 @@
   <a href="https://ai.google.dev/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"></a>
   <a href="https://www.google.com/sheets/about/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"></a>
   <a href="LICENSE" style="text-decoration: none;"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
-  <br>  <!--GitHubStatsBadges-->
+  <br><!--PremiumBadges-->
+  ![n8n version](https://img.shields.io/badge/n8n-Compatible-orange?logo=n8n)
+  ![Gemini version](https://img.shields.io/badge/Gemini-1.5%20Flash-blue?logo=googlegemini)
+  ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
+  ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+  <br><!--GitHubStatsBadges-->
   <a href="https://github.com/maheerCodes/Email-Automation/stargazers" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/maheerCodes/Email-Automation?style=flat-square&color=gold" alt="Stars"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Email-Automation?style=flat-square&color=blue" alt="Forks"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;"><img src="https://img.shields.io/github/issues/maheerCodes/Email-Automation?style=flat-square&color=red" alt="Issues"></a>
