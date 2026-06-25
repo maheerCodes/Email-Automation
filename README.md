@@ -1,71 +1,136 @@
-# Sadia AI: Autonomous Email Assistant for Maheer 🚀
+<div align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="logo" width="80">
 
-Sadia is a sophisticated AI-powered Email Assistant designed to handle professional communications on behalf of **Sheikh Mohammad Ali Maheer**. Built using **n8n**, **Google Gemini 1.5 Flash**, and **Google Sheets**, this agent acts as a first responder to business inquiries, providing accurate information about services, pricing, and portfolio.
+  <h1>Sadia AI — Email Automation</h1>
+
+  <h3>An autonomous AI Executive Assistant built with n8n, Google Gemini & RAG</h3>
+
+  <!--BadgesGrid-->
+  <a href="https://n8n.io/" style="text-decoration: none;"><img src="https://img.shields.io/badge/n8n-FF6D5B?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"></a>
+  <a href="https://ai.google.dev/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"></a>
+  <a href="https://www.google.com/sheets/about/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"></a>
+  <a href="LICENSE" style="text-decoration: none;"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
+  <br>
+  <!--GitHubStatsBadges-->
+  <a href="https://github.com/maheerCodes/Email-Automation/stargazers" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/maheerCodes/Email-Automation?style=flat-square&color=gold" alt="Stars"></a>
+  <a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;"><img src="https://img.shields.io/github/issues/maheerCodes/Email-Automation?style=flat-square&color=red" alt="Issues"></a>
+  <a href="https://github.com/maheerCodes/Email-Automation/commits/main" style="text-decoration: none;"><img src="https://img.shields.io/github/last-commit/maheerCodes/Email-Automation?style=flat-square&color=green" alt="Last Commit"></a>
+
+  <p>Sadia is a human-like Personal Executive Assistant that automatically monitors Gmail, retrieves professional info from Google Sheets using RAG, and replies to clients in their own language.</p>
+
+  <!--NavigationLinks-->
+  <b><a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;">🐛 Report Bug</a></b> · 
+  <b><a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;">✨ Request Feature</a></b>
+</div>
 
 <br>
 
-![n8n](https://img.shields.io/badge/Automation-n8n-red)
-![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-blue)
-![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/maheerCodes/Email-Automation/main/Assets/Workflow_Preview.png" alt="Workflow Preview" width="800">
+  <p><i>The complete n8n workflow logic showing Brain, Memory, and Database integration.</i></p>
+</div>
 
 <br>
 
-## 🌟 Key Features
+## 📑 Table of Contents
 
--   **Autonomous Decision Making:** Uses Google Gemini to understand client intent and call tools as needed.
--   **Dynamic Database (RAG):** Fetches real-time pricing and service details from Google Sheets.
--   **Context-Aware Conversation:** Maintains thread memory (using Thread IDs) to handle follow-up emails seamlessly.
--   **Multilingual Support:** Automatically detects the sender's language (Bangla, English, Banglish) and mirrors their tone. 
--   **Safety & Filtering:** Built-in safety logic to handle inappropriate language or off-topic queries professionally.
--   **Structured JSON Output:** Custom JavaScript formatting to ensure email replies are sent in clean, professional HTML.
+<ul>
+  <li><a href="#-features" style="text-decoration: none;">Features</a></li>
+  <li><a href="#️-tech-stack" style="text-decoration: none;">Tech Stack</a></li>
+  <li><a href="#-project-structure" style="text-decoration: none;">Project Structure</a></li>
+  <li><a href="#-getting-started" style="text-decoration: none;">Getting Started</a></li>
+  <li><a href="#️-how-it-works" style="text-decoration: none;">How It Works</a></li>
+  <li><a href="#-customization" style="text-decoration: none;">Customization</a></li>
+  <li><a href="#-license" style="text-decoration: none;">License</a></li>
+  <li><a href="#-author" style="text-decoration: none;">Author</a></li>
+</ul>
 
-## 🏗️ Technical Architecture
+## ✨ Features
 
-The workflow is built on **n8n** and follows a modular architecture:
-
-![Sadia AI Workflow Architecture](Assets/Image/Workflow-Screenshot.png)
-
-1.  **Gmail Trigger:** Polls for new messages and triggers the workflow.
-2.  **Filter Node:** Prevents looping and handles internal email routing.
-3.  **AI Agent (Brain):** Powered by Google Gemini 1.5 Flash with custom system prompts.
-4.  **Memory Node:** Uses `Simple Memory` with `Thread ID` to track long conversations.
-5.  **Google Sheets Tool:** Serves as the Knowledge Base for pricing and portfolio data.
-6.  **Code Node:** A custom JavaScript formatter to parse JSON outputs for the Gmail API.
-7.  **Gmail Reply Node:** Sends formatted HTML replies back to the client.
+| Icon | Description |
+| :---: | :--- |
+| 📧 | **Real-time Monitoring** — Automatically triggers every minute to check for new Gmail messages. |
+| 🧠 | **RAG System (Knowledge Base)** — Uses Google Sheets as a database to store services, pricing, and portfolio. |
+| 🗣️ | **Multilingual Personality** — Responds in the sender's language (Bangla, English, or Banglish) with a human-like tone. |
+| 💾 | **Contextual Memory** — Remembers previous conversations in a thread for coherent long-term chat. |
+| 🛡️ | **Smart Filtering** — Ignores self-sent emails and specific addresses to prevent infinite loops. |
+| ⚙️ | **Automated Drafting** — Generates and sends HTML-formatted replies directly from the AI agent. |
 
 ## 🛠️ Tech Stack
 
--   **Workflow Automation:** [n8n](https://n8n.io/)
--   **LLM Model:** Google Gemini 1.5 Flash
--   **Database:** Google Sheets (as a searchable knowledge base)
--   **Email Integration:** Gmail API
--   **Programming:** JavaScript 
+| Layer | Technology |
+|---|---|
+| **Automation Platform** | n8n (Workflow Engine) |
+| **LLM (The Brain)** | Google Gemini 1.5 Flash |
+| **Knowledge Base** | Google Sheets API |
+| **Communication** | Gmail API |
+| **Logic/Parsing** | JavaScript (n8n Code Node) |
+| **Orchestration** | LangChain Nodes within n8n |
 
-## 📂 Project Structure
+## 📁 Project Structure
 
--   `Topic`: The category of inquiry (Pricing, Identity, Portfolio).
--   `Keywords`: Search tags for the AI to retrieve correct rows.
--   `Content`: The official response/data source for the AI.
+```text
+Email-Automation/
+├── EmailWorkflows.json        # The complete n8n workflow export (import this to n8n)
+├── package.json               # Project metadata and keywords
+├── Assets/                    # Workflow screenshots and preview images
+├── LICENSE                    # MIT License
+└── README.md                  # Project documentation
+```
 
-## 🚀 Future Roadmap
+## 🚀 Getting Started
 
--   [ ] Automatic Meeting Booking via Calendly API.
--   [ ] Integration with WhatsApp Business API.
--   [ ] Multi-user support for various team members.
+### 1. Prerequisites
+* An instance of **n8n** (Cloud or self-hosted).
+* **Google Gemini API Key** (from Google AI Studio).
+* **Google OAuth Credentials** for Gmail and Google Sheets.
 
-## 👨‍💻 Developed By
+### 2. Installation
+1. Download the `EmailWorkflows.json` file.
+2. Open your n8n dashboard and click on **Import from File**.
+3. Select the `EmailWorkflows.json` file.
+4. Configure your credentials for the **Gmail Trigger**, **Gemini Chat Model**, and **Google Sheets Tool**.
+5. Set the Workflow to **Active**.
 
-**Sheikh Mohammad Ali Maheer** 
-*AI Automation Engineer & Full Stack Developer*  
-- [GitHub](https://github.com/maheerCodes)  
-- [LinkedIn](https://linkedin.com/in/sheikh-mohammad-ali-maheer)
+## ⚙️ How It Works (Workflow Overview)
 
-## 🚀 Quick Setup
-1. **Import Workflow:** Download the `EmailWorkflows.json` and import it into your n8n instance.
-2. **Setup Database:** Create a Google Sheet with `Topic`, `Keywords`, and `Content` columns.
-3. **Configure API:** Add your Google Gemini API key and connect your Gmail account.
-4. **Publish:** Activate the workflow and you are ready!
+<details>
+<summary>Click to expand the technical node breakdown</summary>
+<br>
 
----
-*Note: This project was built to demonstrate the power of AI Agents in automating professional workflows and scaling personal business communications.*
+| Node | Responsibility |
+| :--- | :--- |
+| **Gmail Trigger** | Polls the inbox every minute for new messages. |
+| **Filter** | Checks sender headers to ensure the AI doesn't reply to its own emails. |
+| **AI Agent** | The core processor. It coordinates between the LLM, Memory, and Tools. |
+| **Google Sheets Tool** | Fetches real-time data from Maheer's service sheet to answer pricing/service questions. |
+| **Simple Memory** | Maintains a "Buffer Window" of the conversation using the `threadId` as the key. |
+| **JavaScript Node** | Sanitizes and parses the AI's JSON output to ensure the email subject and body are valid. |
+| **Reply to Message** | Sends the final HTML-formatted response back to the client via Gmail. |
+
+</details>
+
+## 🎨 Customization
+
+You can change the AI's identity and knowledge source easily:
+* **Persona:** Edit the `System Message` in the **AI Agent** node. (Currently set as "Sadia").
+* **Knowledge Base:** In the **Google Sheets Tool** node, replace the `Document ID` with your own Google Sheet link.
+* **Instructions:** Modify the "AI Behavior Rules" in the tool description to change how the agent uses your data.
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Sheikh Mohammad Ali Maheer**
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-maheerCodes-181717?style=for-the-badge&logo=github)](https://github.com/maheerCodes)
+
+<div align="center">
+<br>
+<h3>⭐ If you find this automation useful, give it a star!</h3>
+<p>Built with ❤️ for AI Automation Efficiency</p>
+</div>
