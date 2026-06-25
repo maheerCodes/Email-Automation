@@ -176,6 +176,11 @@ Contributions are what make the open source community such an amazing place to l
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
+## ❤️ Special Thanks
+- [n8n](https://n8n.io/) for the amazing automation engine.
+- [Google AI Studio](https://aistudio.google.com/) for the Gemini 1.5 Flash API.
+- [Shields.io](https://shields.io/) for the beautiful badges.
+
 ## 👤 Author
 
 **Sheikh Mohammad Ali Maheer**
