@@ -9,10 +9,10 @@
   <a href="https://www.google.com/sheets/about/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"></a>
   <a href="LICENSE" style="text-decoration: none;"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
 <br><!--PremiumBadges-->
-  <img src="https://img.shields.io/badge/n8n-Compatible-orange?logo=n8n" alt="n8n version">
-  <img src="https://img.shields.io/badge/Gemini-1.5%20Flash-blue?logo=googlegemini" alt="Gemini version">
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome">
-  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained">
+  <img src="https://img.shields.io/badge/n8n-Compatible-orange?style=flat-square&logo=n8n" alt="n8n version">
+  <img src="https://img.shields.io/badge/Gemini-1.5%20Flash-blue?style=flat-square&logo=googlegemini" alt="Gemini version">
+  <img src="https://img.shields.io/badge/PRs--Welcome-brightgreen?style=flat-square" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green?style=flat-square" alt="Maintained">
   <br><!--GitHubStatsBadges-->
   <a href="https://github.com/maheerCodes/Email-Automation/stargazers" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/maheerCodes/Email-Automation?style=flat-square&color=gold" alt="Stars"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Email-Automation?style=flat-square&color=blue" alt="Forks"></a>
