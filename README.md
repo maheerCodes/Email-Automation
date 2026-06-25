@@ -4,17 +4,18 @@
   <h1>Sadia AI — Email Automation</h1>
 
   <h3>An autonomous AI Executive Assistant built with n8n, Google Gemini & RAG</h3>
-
   <!--BadgesGrid-->
   <a href="https://n8n.io/" style="text-decoration: none;"><img src="https://img.shields.io/badge/n8n-FF6D5B?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"></a>
   <a href="https://ai.google.dev/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"></a>
   <a href="https://www.google.com/sheets/about/" style="text-decoration: none;"><img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"></a>
   <a href="LICENSE" style="text-decoration: none;"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
-  <br>
-  <!--GitHubStatsBadges-->
+  <br>  <!--GitHubStatsBadges-->
   <a href="https://github.com/maheerCodes/Email-Automation/stargazers" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/maheerCodes/Email-Automation?style=flat-square&color=gold" alt="Stars"></a>
+  <a href="https://github.com/maheerCodes/Tic-Tac-Toe/network/members" style="text-decoration: none;"><img src="https://img.shields.io/github/forks/maheerCodes/Tic-Tac-Toe?style=flat-square&color=blue" alt="Forks"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/issues" style="text-decoration: none;"><img src="https://img.shields.io/github/issues/maheerCodes/Email-Automation?style=flat-square&color=red" alt="Issues"></a>
   <a href="https://github.com/maheerCodes/Email-Automation/commits/main" style="text-decoration: none;"><img src="https://img.shields.io/github/last-commit/maheerCodes/Email-Automation?style=flat-square&color=green" alt="Last Commit"></a>
+  <br>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=maheerCodes.Tic-Tac-Toe" alt="Visitors">
 
   <p>Sadia is a human-like Personal Executive Assistant that automatically monitors Gmail, retrieves professional info from Google Sheets using RAG, and replies to clients in their own language.</p>
 
@@ -26,7 +27,7 @@
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/maheerCodes/Email-Automation/main/Assets/Workflow_Preview.png" alt="Workflow Preview" width="800">
+  <img src="Assets/Image/Workflow-Screenshot.png" alt="Workflow Preview" width="800">
   <p><i>The complete n8n workflow logic showing Brain, Memory, and Database integration.</i></p>
 </div>
 
