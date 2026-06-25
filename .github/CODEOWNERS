@@ -1,0 +1,10 @@
+# This file defines the owners of each part of the repository.
+
+# Every file in the repo belongs to Maheer
+*       @maheerCodes
+
+# If someone changes the workflow file, Maheer must review it
+/EmailWorkflows.json @maheerCodes
+
+# If someone changes documentation, Maheer must review it
+/*.md @maheerCodes
