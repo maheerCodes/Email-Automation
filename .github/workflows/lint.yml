@@ -1,0 +1,15 @@
+name: Validate Workflow
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Validate JSON
+        run: |
+          for file in *.json; do
+            jq . "$file" > /dev/null && echo "$file is valid" || exit 1
+          done
