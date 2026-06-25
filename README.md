@@ -37,10 +37,14 @@
 <ul>
   <li><a href="#-features" style="text-decoration: none;">Features</a></li>
   <li><a href="#️-tech-stack" style="text-decoration: none;">Tech Stack</a></li>
+  <li><a href="#-browser-support" style="text-decoration: none;">Browser Support</a></li>
   <li><a href="#-project-structure" style="text-decoration: none;">Project Structure</a></li>
   <li><a href="#-getting-started" style="text-decoration: none;">Getting Started</a></li>
   <li><a href="#️-how-it-works-workflow-overview" style="text-decoration: none;">How It Works</a></li>
   <li><a href="#-customization" style="text-decoration: none;">Customization</a></li>
+  <li><a href="#-faq" style="text-decoration: none;">FAQ</a></li>
+  <li><a href="#️-roadmap--future-improvements" style="text-decoration: none;">Roadmap</a></li>
+  <li><a href="#-contributing" style="text-decoration: none;">Contributing</a></li>
   <li><a href="#-license" style="text-decoration: none;">License</a></li>
   <li><a href="#-author" style="text-decoration: none;">Author</a></li>
 </ul>
