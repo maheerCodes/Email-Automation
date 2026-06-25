@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="logo" width="80">
-
+  <img src="https://cdn-icons-png.flaticon.com/512/7056/7056455.png" alt="logo" width="80">
   <h1>Sadia AI — Email Automation</h1>
 
   <h3>An autonomous AI Executive Assistant built with n8n, Google Gemini & RAG</h3>
