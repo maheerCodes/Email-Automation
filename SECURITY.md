@@ -17,7 +17,7 @@ Only the latest stable version of Sadia AI is supported for security updates. Pl
 If you discover a potential security flaw (e.g., credential leakage logic, prompt injection risks, or OAuth handling issues), please report it privately.
 
 You can report vulnerabilities by:
-1. **Email:** Send a detailed report to **maheer.codes@gmail.com** (replace with your actual email).
+1. **Email:** Send a detailed report to **maheer.codes@gmail.com**.
 2. **GitHub Private Reporting:** Use the "Report a vulnerability" button under the **Security** tab of this repository.
 
 We will acknowledge your report within **48 hours** and provide a timeline for a fix.
