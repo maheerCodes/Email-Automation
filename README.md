@@ -67,6 +67,14 @@
 | **Logic/Parsing** | JavaScript (n8n Code Node) |
 | **Orchestration** | LangChain Nodes within n8n |
 
+## 🌍 Browser Support
+
+| Chrome | Firefox | Edge | Safari |
+|:---:|:---:|:---:|:---:|
+| ✅ | ✅ | ✅ | ✅ |
+
+> 💡 **Note:** Browser support is required for accessing the **n8n dashboard** and configuring the workflow nodes.
+
 ## 📁 Project Structure
 
 ```text
@@ -85,12 +93,12 @@ Email-Automation/
 * **Google Gemini API Key** (from Google AI Studio).
 * **Google OAuth Credentials** for Gmail and Google Sheets.
 
-### 2. Installation
-1. Download the `EmailWorkflows.json` file.
-2. Open your n8n dashboard and click on **Import from File**.
-3. Select the `EmailWorkflows.json` file.
+### 2. Installation & How to Run
+1. Download the `EmailWorkflows.json` file from this repository.
+2. Open your **n8n dashboard** and click on **Import from File**.
+3. Select the downloaded `.json` file.
 4. Configure your credentials for the **Gmail Trigger**, **Gemini Chat Model**, and **Google Sheets Tool**.
-5. Set the Workflow to **Active**.
+5. Click **Execute Workflow** to test, then set it to **Active**.
 
 ## ⚙️ How It Works (Workflow Overview)
 
@@ -116,6 +124,44 @@ You can change the AI's identity and knowledge source easily:
 * **Persona:** Edit the `System Message` in the **AI Agent** node. (Currently set as "Sadia").
 * **Knowledge Base:** In the **Google Sheets Tool** node, replace the `Document ID` with your own Google Sheet link.
 * **Instructions:** Modify the "AI Behavior Rules" in the tool description to change how the agent uses your data.
+
+## ❓ FAQ
+
+<details>
+<summary><b>Is my data secure?</b></summary>
+<br>
+Yes. The automation uses official Google OAuth2.0 for Gmail and Sheets. Your API keys are stored locally within your n8n instance.
+</details>
+
+<details>
+<summary><b>Does Google Gemini charge for this?</b></summary>
+<br>
+Gemini 1.5 Flash has a generous **free tier** available in most regions. Check Google AI Studio for current limits.
+</details>
+
+<details>
+<summary><b>Can Sadia handle attachments?</b></summary>
+<br>
+Currently, this workflow is optimized for text-based replies. Attachment support is on the roadmap.
+</details>
+
+## 🗺️ Roadmap / Future Improvements
+
+- [ ] Support for Microsoft Outlook/365
+- [ ] Automated attachment analysis (PDF/Images)
+- [ ] Integration with WhatsApp for instant notifications
+- [ ] Dashboard for tracking AI response accuracy
+- [ ] Multi-agent support for different business departments
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
