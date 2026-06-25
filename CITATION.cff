@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this AI automation workflow, please cite it as below."
+authors:
+  - family-names: "Maheer"
+    given-names: "Sheikh Mohammad Ali"
+title: "Sadia AI — Autonomous Email Executive Assistant"
+version: 1.0.1
+date-released: 2024-05-16
+url: "https://github.com/maheerCodes/Email-Automation"
